@@ -1,0 +1,26 @@
+<!-- src/main/resources/templates/index.html -->
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Big Number Sum</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container mt-5">
+    <h1>Big Number Sum</h1>
+    <form action="/sum" method="post">
+        <div class="form-group">
+            <label for="number1">Number 1:</label>
+            <input type="text" class="form-control" id="number1" name="number1" required>
+        </div>
+        <div class="form-group">
+            <label for="number2">Number 2:</label>
+            <input type="text" class="form-control" id="number2" name="number2" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Sum</button>
+    </form>
+</div>
+</body>
+</html>
