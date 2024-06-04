@@ -1,5 +1,3 @@
-// src/main/java/com/example/demo/controller/SumController.java
-
 package com.example.demo.controller;
 
 import com.example.demo.MyBigNumber;
